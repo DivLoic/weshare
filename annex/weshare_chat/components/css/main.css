@@ -1,0 +1,35 @@
+@font-face
+{
+	font-family: 'Biko Regular';
+	src: url('../font/Biko_Regular.otf');
+}
+
+@font-face
+{
+	font-family: 'Biko Bold';
+	src: url('../font/Biko_Bold.otf');
+}
+
+body
+{
+	word-wrap: break-word;
+	font-family: 'Biko Regular', 'Helvetica Neue', Arial;
+	background-color: #ececed;
+}
+
+input
+{
+	font-family: 'Biko Regular', 'Helvetica Neue', Arial;
+	outline: 0;
+}
+
+#content
+{
+	margin-top: 5%;
+}
+
+.container
+{
+	width: 760px;
+	margin: auto;
+}

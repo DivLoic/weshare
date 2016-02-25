@@ -1,0 +1,137 @@
+<style>
+
+	#menu, #menu ul
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	#menu li
+	{
+		display: inline-block;
+		position: relative;
+		background-color: grey;
+	}
+	
+	#menu li li
+	{
+		background-color: blue;
+	}
+
+	#menu li li:first-child
+	{
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+	}
+
+
+	#menu li li:last-child
+	{
+		border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
+	}
+	
+
+	#menu a
+	{
+		display: inline-block;
+		padding: 10px 0;
+		width: 100px;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+	}
+	
+	#menu li li li a
+	{
+		width: 150px;
+	}
+
+	#menu ul
+	{
+		display: none;
+		position: absolute;
+	}
+
+	#menu li:hover > ul
+	{
+		display: block;
+		padding-top: 10px;
+	}
+
+	#menu li li:hover > ul
+	{
+		left: 100px;
+		top: 0;
+		padding-top: 0;
+		padding-left: 10px;
+	}
+
+</style>
+
+
+
+
+
+
+<meta charset="utf-8" />
+
+<ul id="menu">
+    <li>
+        <a href="#">Rubrique 1</a>
+    </li>
+    <li>
+        <a href="#">Rubrique 2</a>
+        <ul>
+            <li>
+                <a href="#">Catégorie 1</a>
+                <ul>
+                    <li><a href="#">Sous-catégorie 1</a></li>
+                    <li><a href="#">Sous-catégorie 2</a></li>
+                    <li><a href="#">Sous-catégorie 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Catégorie 2</a>
+                <ul>
+                    <li><a href="#">Sous-catégorie 1</a></li>
+                    <li><a href="#">Sous-catégorie 2</a></li>
+                    <li><a href="#">Sous-catégorie 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Catégorie 3</a>
+            </li>
+            <li>
+                <a href="#">Catégorie 4</a>
+                <ul>
+                    <li><a href="#">Sous-catégorie 1</a></li>
+                    <li><a href="#">Sous-catégorie 2</a></li>
+                    <li><a href="#">Sous-catégorie 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Rubrique 3</a>
+        <ul>
+            <li>
+                <a href="#">Catégorie 1</a>
+            </li>
+            <li>
+                <a href="#">Catégorie 2</a>
+            </li>
+            <li>
+                <a href="#">Catégorie 3</a>
+                <ul>
+                	<li><a href="#">Sous-catégorie 1</a></li>
+                	<li><a href="#">Sous-catégorie 2</a></li>
+                	<li><a href="#">Sous-catégorie 3</a></li>
+                	<li><a href="#">Sous-catégorie 4</a></li>
+                	<li><a href="#">Sous-catégorie 5</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>

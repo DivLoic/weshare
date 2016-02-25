@@ -1,0 +1,44 @@
+.container
+{
+	width: 410px;
+}
+
+#disconnect
+{
+	min-height: 350px;
+}
+
+#header_disconnect
+{
+	font-family: 'Biko Bold';
+	background-color: #34b1bc;
+	padding: 11px 11px 7px 20px;
+	font-size: 1.3em;
+	color: #ffffff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 4px #279fa9 solid;
+}
+
+#frame_disconnect
+{
+	background-color: #ffffff;
+	padding: 10px;
+	overflow: auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+	transition: all 0.3s;
+}
+
+.success
+{
+	color: #34b1bc;
+	background-image: url('../img/input_check.svg');
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	text-align: left;
+	margin-left: 35px;
+	padding-left: 30px;
+	line-height: 1.3em;
+}

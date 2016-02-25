@@ -1,0 +1,30 @@
+#conditions 
+{
+	color: #848484;
+	font-size: 1,2em;
+	
+}
+h1
+{
+	
+	font-style: oblique;
+	 font-weight: bold;
+	color: #e66e73;
+	text-align:center;
+	text-shadow: 2px 2px 4px #34b1bc;
+}
+.arrow_bubble_inverse
+{
+	margin-left: 60px;
+	height: 180x;
+	width:  500px;
+	border: 4px  #e66e73 inset;
+	border-radius: 7px;
+	color: #848484;
+	box-shadow: 6px 6px 0px #34b1bc;
+
+}
+em
+{
+	color: #9cd8dc;
+}	

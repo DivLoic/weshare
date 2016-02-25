@@ -1,0 +1,35 @@
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td
+{
+    border: 1px solid #C4C4C4;
+    padding: 4px 20px;
+    text-align: center;
+}
+
+#content_left
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 25px 50px;
+}
+
+#content_right
+{
+	display: inline-block;
+	margin: 0 0 0 50px;
+	vertical-align: top;
+	font-size: 1.3em;
+}
+
+#content_right input
+{
+	padding: 3px;
+}
+
+h2
+{
+	border-bottom: solid 1px black;
+}

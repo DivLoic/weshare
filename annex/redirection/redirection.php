@@ -1,0 +1,1 @@
+<script type="text/javascript">setTimeout(function(){ window.location.href = 'index.php'; }, 3000);</script>
