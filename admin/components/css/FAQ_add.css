@@ -1,0 +1,47 @@
+.content_window_dashboard
+{
+	padding: 30px;
+}
+
+
+.add_FAQ_input
+{
+	visibility: hidden;
+	opacity: 0;
+	padding: 7px;
+	border-radius: 4px;
+	border: 2px #d5d5d5 solid;
+	font-size: 1em;
+	transition: all 0.5s;
+	width: 98%;
+	margin-bottom: 20px;
+	color: #666666;
+}
+
+.add_FAQ_input:focus
+{
+	border-color: #34b1bc;
+}
+
+
+
+.add_FAQ_submit
+{
+	visibility: hidden;
+	opacity: 0;
+	background-color: #34b1bc;
+	text-align: center;
+	color: #ffffff;
+	transition: all 0.3s;
+	text-decoration: none;
+	font-size: 1rem;
+	border-radius: 6px;
+	border: 0px;
+	padding: 9px 35px;
+}
+
+.header_window_dashboard h2
+{
+	text-indent: 2em;
+	background: url('../img/add.svg') no-repeat 12px 10px;
+}

@@ -1,0 +1,176 @@
+table
+{
+	width: 100%;
+}
+
+tr
+{
+	border-bottom: 2px solid #e3e3e3;
+	vertical-align: middle;
+}
+
+/*tr:last-child
+{
+	border-bottom: 0;
+}*/
+
+tr:hover
+{
+	background-color: #f4f4f4;
+}
+
+td
+{
+	padding: 7px 0px 5px 0px;
+	word-wrap: break-word;
+}
+
+table a
+{
+	color: #34b1bc;
+	text-decoration: none;
+}
+
+table a:hover
+{
+	text-decoration: underline;
+}
+
+table input[type="checkbox"]
+{
+	display: none;
+}
+
+table [type="checkbox"]:checked
+{
+	display: inline-block;
+}
+
+table tr:hover input[type="checkbox"]
+{
+	display: inline-block;
+}
+
+
+
+.search_users
+{
+	width: 100%;
+	text-align: right;
+}
+
+form
+{
+	display: inline-block;
+}
+
+.search_users input
+{
+	display: inline-block;
+	padding: 7px;
+	border-radius: 4px;
+	border: 2px #d5d5d5 solid;
+	font-size: 1em;
+	transition: all 0.5s;
+	width: 240px;
+	color: #666666;
+	margin-bottom: 20px;
+}
+
+.search_users input:focus
+{
+	border-color: #34b1bc;
+}
+
+.select_all
+{
+	width: 5%;
+	float: left;
+	text-align: center;
+	display: table-cell;
+	padding: 10px 0px 10px 0px;
+	vertical-align: middle;
+}
+
+.all_selected
+{
+	float: left;
+	text-align: center;
+	display: table-cell;
+	padding: 10px 0px 10px 0px;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.all_selected:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.on
+{
+	display: inline-block;
+	background-color: #34b1bc;
+	width: 30px;
+	padding: 8px;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+.off
+{
+	display: inline-block;
+	background-color: #696969;
+	width: 30px;
+	padding: 8px;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+.ban
+{
+	display: inline-block;
+	background-color: #e66d75;
+	width: 30px;
+	padding: 8px;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+
+.user_action
+{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-indent: 1.5em;
+	text-align: center;
+}
+
+
+.user_action input
+{
+	visibility: hidden;
+	opacity: 0;
+	margin-left: 15px;
+	background-color: #696969;
+	text-align: center;
+	color: #ffffff;
+	transition: all 0.3s;
+	text-decoration: none;
+	font-size: 1rem;
+	border-radius: 6px;
+	border: 0;
+	padding: 12px 26px;
+}
+
+.user_action:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+

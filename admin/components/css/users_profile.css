@@ -1,0 +1,82 @@
+.content_window_dashboard
+{
+	padding-left: 50px;
+}
+
+#account
+{
+	margin: 20px;
+	padding-bottom: 30px;
+	border-bottom: 5px #34b1bc solid;
+}
+
+#photo
+{
+	display: inline-block;
+	width: 164px;
+	vertical-align: middle;
+}
+
+.profile_photo
+{
+	width: 120px;
+	height: 120px;
+	border: 8px #34b1bc solid;
+	border-radius: 120px;
+}
+
+
+#account_information
+{
+	display: inline-block;
+	background-color: #ffffff;
+	border-radius: 10px;
+	vertical-align: middle;
+}
+
+#account_information p
+{
+	font-size: 1.5em;
+	color: #34b1bc;
+	margin: 16px;
+}
+
+#account_information p:first-child
+{
+	font-family: 'Biko Bold';
+	font-size:2.2em;
+	margin: 16px;
+	margin-top: 20px;
+}
+
+#account_information p:last-child
+{
+	font-size:1.2em;
+	margin: 16px;
+}
+
+
+
+
+#personal_information
+{
+	margin: 30px;
+}
+
+
+.information_user
+{
+	display: inline-block;
+	width: 195px;
+	text-align: right;
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+.value_info
+{
+	font-family: 'Biko Bold';
+	color: #34b1bc;
+	font-size: 1.3em;
+}

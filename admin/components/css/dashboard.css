@@ -1,0 +1,114 @@
+.visit
+{
+	width: 30%;
+	margin-right: 5%;
+	font-family: 'Biko Bold';
+	font-size: 1.3em;
+	padding: 10px 0;
+	background-image: url('../img/visits.svg');
+	background-repeat: no-repeat;
+	background-position: 28px 31px;
+}
+
+.members
+{
+	width: 30%;
+	margin-right: 5%;
+	font-family: 'Biko Bold';
+	font-size: 1.3em;
+	padding: 10px 0;
+	background-image: url('../img/members.svg');
+	background-repeat: no-repeat;
+	background-position: 15px 26px;
+}
+
+.annonces
+{
+	width: 30%;
+	margin-right: 0;
+	font-family: 'Biko Bold';
+	font-size: 1.3em;
+	padding: 10px 0;
+	background-image: url('../img/annonces.svg');
+	background-repeat: no-repeat;
+	background-position: 15px 26px;
+}
+
+.infos_dash
+{
+	margin-left: 53px;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+
+.maintenance_titre
+{
+	display: inline-block;
+	font-family: 'Biko Bold';
+	font-size: 1.5em;
+}
+
+.maintenance_action
+{
+	display: inline-block;
+}
+
+.maintenance_action select
+{
+	width: 150px;
+	margin-left: 20px;
+}
+
+.maintenance_action input
+{
+	visibility: hidden;
+	opacity: 0;
+	margin-left: 15px;
+	text-align: center;
+	color: #ffffff;
+	transition: all 0.3s;
+	text-decoration: none;
+	font-size: 1rem;
+	border-radius: 6px;
+	border: 0;
+	padding: 12px 26px;
+}
+
+
+
+
+
+.input_email
+{
+	margin-left: 10px;
+	padding: 7px;
+	border-radius: 4px;
+	border: 2px #d5d5d5 solid;
+	font-size: 1em;
+	transition: all 0.5s;
+	width: 220px;
+	color: #666666;
+}
+
+.input_email:focus
+{
+	border-color: #696969;
+}
+
+
+
+.input_email_submit
+{
+	display: none;
+	background-color: #696969;
+	text-align: center;
+	color: #ffffff;
+	transition: all 0.3s;
+	text-decoration: none;
+	font-size: 1rem;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border: 0;
+	padding: 9px 26px;
+}

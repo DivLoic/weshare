@@ -1,0 +1,114 @@
+table
+{
+	width: 100%;
+}
+
+tr
+{
+	border-bottom: 2px solid #e3e3e3;
+	vertical-align: middle;
+}
+
+tr:hover
+{
+	background-color: #f4f4f4;
+}
+
+td
+{
+	padding: 7px 0px 5px 0px;
+	word-wrap: break-word;
+}
+
+table a
+{
+	color: #34b1bc;
+	text-decoration: none;
+}
+
+table a:hover
+{
+	text-decoration: underline;
+}
+
+table input[type="radio"]
+{
+	display: none;
+}
+
+table [type="radio"]:checked
+{
+	display: inline-block;
+}
+
+table tr:hover input[type="radio"]
+{
+	display: inline-block;
+}
+
+form
+{
+	display: inline-block;
+}
+
+
+.user_action
+{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-indent: 1.5em;
+	text-align: center;
+}
+
+
+.update_FAQ_submit
+{
+	visibility: hidden;
+	opacity: 0;
+	margin-left: 15px;
+	color: #666666;
+	text-align: center;
+	border: 2px #d5d5d5 solid;
+	transition: all 0.3s;
+	text-decoration: none;
+	font-size: 1rem;
+	border-radius: 6px;
+	padding: 12px 35px;
+}
+
+.Q_R
+{
+	visibility: hidden;
+	opacity: 0;
+	padding: 7px;
+	border-radius: 4px;
+	border: 2px #d5d5d5 solid;
+	font-size: 1em;
+	transition: all 0.5s;
+	width: 98%;
+	margin-bottom: 20px;
+	color: #666666;
+}
+
+.Q_R:focus
+{
+	border-color: #34b1bc;
+}
+
+.user_action:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.header_window_dashboard
+{
+	background-color: #696969;
+}
+
+.header_window_dashboard h2
+{
+	text-indent: 2em;
+	background: url('../img/pencil.svg') no-repeat 12px 10px;
+}
