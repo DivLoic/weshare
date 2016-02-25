@@ -1,0 +1,172 @@
+.hide
+{
+	display:none;
+}
+.show
+{
+	display:block;
+	background-color: #34b1bc;
+	border-radius: 15px;
+	padding: 20px 30px;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	color: #ffffff;
+	margin:0;
+	margin-bottom: 30px;
+}
+#content .arrow_show
+{
+	position: relative;
+	top: 12px;
+	left: 70px;
+	width: 88px;
+	height: 40px;
+	background-image: url('../img/arrow_bubble_blue_inverse2.svg');
+	background-repeat: no-repeat;
+}
+.question
+{
+	font-size: 1.3em;
+	color: #666666;
+	line-height: 1.4em;
+	text-indent: 2em;
+	opacity: 0.8;
+	margin: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.question_open
+{
+	font-size: 1.3em;
+	color: #34b1bc;
+	font-family: 'Biko Bold';
+	line-height: 1.4em;
+	text-indent: 2em;
+	margin: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.question:hover
+{
+	text-decoration: underline;
+}
+
+#content h2
+{
+	font-family: 'Biko Bold';
+	font-size: 3.4em;
+	color: #34b1bc;
+	border-bottom: 7px #9cd8dc solid;
+}
+#content h4
+{
+	font-family: 'Biko Bold';
+	font-size: 2.0em;
+	color: #666666;
+	margin: 20px;
+	margin-top: 40px;
+}
+
+#content
+{
+	margin: 100px 0 80px 0;
+}
+
+#content p
+{
+	margin: 10px 0;
+	text-align: justify;
+}
+
+
+
+
+
+
+#send_mail
+{
+	position: relative;
+	margin: auto;
+	padding: 30px;
+	margin-top: 100px;
+	background-color: #ebf7f8;
+	border-radius: 30px;
+	text-align: center;
+	transition: all 0.3s;
+}
+
+
+
+#input_email
+{
+	padding: 10px;
+	border: 0;
+	border-bottom: 3px rgba(156,216,220,0.8) solid;
+	font-size: 1.6em;
+	transition: all 0.5s;
+	display: block;
+	width: 820px;
+	color: #34b1bc;
+	background-color: transparent;
+	display: inline-block;
+}
+
+#input_email:focus
+{
+	border-color: #34b1bc;
+}
+
+#send_mail ::-webkit-input-placeholder
+{
+	color: rgba(52,177,188,0.6);
+}
+
+
+#input_content
+{
+	margin-top: 20px;
+	padding: 10px;
+	border: 0;
+	font-size: 1.4em;
+	width: 820px;
+	min-height: 150px;
+	color: #34b1bc;
+	background-color: transparent;
+	display: inline-block;
+	resize: none;
+	overflow: hidden;
+}
+
+
+.arrow_email
+{
+	position: absolute;
+	top: -38px;
+	left: 60px;
+	width: 88px;
+	height: 40px;
+	background-image: url('../img/arrow_bubble_blue_inverse3.svg');
+	background-repeat: no-repeat;
+}
+
+
+#input_submit
+{
+	visibility: hidden;
+	opacity: 0;
+	background-color: rgba(156,216,220,0.8);
+	border: none;
+	width: 940px;
+	font-size: 1.4em;
+	padding:16px;
+	color: white;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	transition: all 0.5s;
+}

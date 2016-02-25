@@ -1,0 +1,87 @@
+#content
+{
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+.input_search_advanced
+{
+    padding: 7px;
+    border-radius: 4px;
+    border: 2px #d5d5d5 solid;
+    font-size: 1em;
+    transition: all 0.5s;
+    width: 300px;
+    color: #666666;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.input_information_search_advanced
+{
+    font-family: 'Biko Bold';
+    font-size: 1.2em;
+    margin: 20px 5px 5px 5px;
+    color: #666666;
+}
+
+#content h1
+{
+	font-family: 'Biko Bold';
+	font-size: 3.4em;
+	color: #34b1bc;
+	border-bottom: 7px #9cd8dc solid;
+}
+
+.input_search_advanced:focus
+{
+    border-color: #34b1bc;
+}
+
+.day
+{
+	width: 25px;
+	text-align:center;
+}
+
+.month
+{
+	width: 25px;
+	text-align:center;
+}
+
+.year
+{
+	width: 50px;
+	text-align:center;
+}
+
+#button_search_advanced
+{
+	width: 250px;
+	background-color: #34b1bc;
+	color: #ffffff;
+	margin-top: 15px;
+	transition: all 0.5s;
+	border-radius: 6px;
+	border: 0;
+	padding: 14px 12px;
+}
+
+
+
+#button_search_advanced:hover
+{
+	background-color: #52bec8;
+}
+
+#button_search_advanced:active
+{
+	background-color: #279fa9;
+}
+
+
+h4
+{
+	font-family: 'Biko Bold';
+	font-weight: normal;
+	font-size: 1.2em;
+}

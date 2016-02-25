@@ -1,0 +1,43 @@
+#conditions
+{
+	color: #848484;
+	font-size: 1.4em;
+	margin: 80px 0;
+	text-align: justify;
+	line-height: 1.4em;
+	background-image: url('../img/arrow_bubble_inverse2.svg');
+	background-repeat:no-repeat;
+	background-position: 230px 580px;
+}
+
+#conditions li
+{
+	margin-bottom: 18px;
+}
+
+#conditions h1
+{
+	font-family: 'Biko Bold';
+	color: #34b1bc;
+	border-bottom: 4px #9cd8dc solid;
+	padding-bottom: 20px;
+}
+
+#conditions em
+{
+	font-style: normal;
+	color: #34b1bc;
+}
+
+.bubble_conditions
+{
+	font-family: 'Biko Bold';
+	font-size: 1.1em;
+	position: relative;
+	margin: 60px 20px 45px 20px;
+	padding: 30px 30px 18px 30px;
+	padding-left: 60px;
+	border-radius: 14px;
+	color: #ffffff;
+	background-color: #9cd8dc;
+}

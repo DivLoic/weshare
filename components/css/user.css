@@ -1,0 +1,805 @@
+
+.user_card
+{
+	display: block;
+	height: 100px;
+	width: 900px;
+	background-color: #34b1bc;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	margin:auto;
+	margin-top:100px;
+	margin-bottom:150px;
+	border: 3px transparent solid;
+	border-bottom: 5px #279fa9 solid;
+	transition: all 0.3s;
+	z-index:2;
+	position:relative;
+	
+}
+
+
+.user_card img
+{
+	position:relative;
+	top:-50px;
+	display:block;
+	vertical-align:middle;
+	margin:auto; 
+	height: 200px;
+	width: 200px;
+	z-index:3;
+	border-left: 12px #34b1bc solid;
+	border-right: 12px #34b1bc solid;
+	border-radius:16px;
+}
+
+.user_info
+{
+	position:absolute;
+	display:table;
+	width:100%;
+	height:100%;
+	background-color:transparent;
+}
+
+.user_info_left, .user_info_right 
+{
+	display:table-cell;
+	width:50%;
+} 
+
+.user_info_left
+{
+	background-color:transparent;
+	text-align: right;
+	padding-right: 150px;
+	padding-top: 8px;
+
+}
+
+.user_info_right
+{
+	background-color:transparent;
+	padding-left: 22px;
+
+}
+
+.user_name
+{	
+	color:white;
+	font-size:1.8em;
+	display:block;
+	margin:5px;
+	margin-left:60px;
+}
+
+.score
+{
+	display:inline-block;
+	vertical-align:bottom;
+	color: #b8ae15;
+	padding: 4px 6px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 4px transparent solid; 
+	margin:2px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:60px;
+	border-radius: 9px;
+	background-color: #f9ffa9; 
+	line-height: 1em;
+	
+}
+
+.user_details
+{
+	color:white;
+	font-size:1.4em;
+	display:block;
+	margin-top:10px;
+	margin-left:120px;
+	line-height: 1.8em;
+
+}
+
+/*#mark
+{
+	position:absolute;
+	top:67px;
+	left:305px;
+	font-family: 'Biko Bold';
+	text-align:center;
+	color: #34b1bc;
+	font-size: 2.2em;
+	line-height:2.1em;
+	height:70px;
+	width:70px;
+	padding: 0px 0px;
+	border: 4px transparent solid; 
+	margin: 55px 0;
+	border-radius: 100%;
+	background-color: #d6eafe; 
+	z-index:4;
+	box-shadow: 0px 0px 0px 7px rgba(119, 119, 119, 0.3);
+	-moz-box-shadow: 0px 0px 0px 7px rgba(119, 119, 119, 0.3);
+	-webkit-box-shadow: 0px 0px 0px 7px rgba(119, 119, 119, 0.3);
+}*/
+
+
+#mark
+{
+	position:absolute;
+	top:67px;
+	left:305px;
+	font-family: 'Biko Bold';
+	text-align:center;
+	color: white;
+	font-size: 2.2em;
+	line-height:2.1em;
+	height:70px;
+	width:70px;
+	padding: 0px 0px;
+	border: 4px transparent solid; 
+	margin: 55px 0;
+	border-radius: 100%;
+	background-color: #6e6e6e;
+	z-index:4;
+	box-shadow: 0px 0px 0px 7px rgba(119, 119, 119, 0.4);
+	-moz-box-shadow: 0px 0px 0px 7px rgba(119, 119, 119, 0.4);
+	-webkit-box-shadow: 0px 0px 0px 7px rgba(119, 119, 119, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#self_comment_items
+{
+	background-color: #ececed;
+	border-top: 10px #34b1bc solid;
+	border-bottom: 10px #34b1bc solid;
+	border-radius: 10px;
+	margin-bottom: 100px;
+	min-height: 100px;
+	padding: 25px;
+}
+
+
+
+#self
+{
+	display:block;
+	min-height: 110px;
+	width: 884px;
+	background-color: white;
+	border-radius: 8px;
+	border: 3px #dddddd solid;
+	transition: all 0.3s;
+	background-color:white;
+}
+
+.self_in
+{
+	display:block;
+	margin:auto;
+	margin-top:20px;
+	min-height:70px;
+	width:800px;
+	vertical-align:middle;
+	color: #808080;
+	font-size: 1.1em;
+
+}
+
+
+
+button
+{
+	border:none;
+}
+
+
+
+#user_description
+{
+	margin-top: 80px;
+}
+
+#user_description ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#user_description li:first-child
+{
+	margin-left: 40px;
+}
+
+#user_description li
+{
+	display: inline-block;
+}
+
+#user_description li button
+{
+	text-align: center;
+	color: #ffffff;
+	background-color: #424242;
+	font-size: 1.2em;
+	text-decoration: none;
+	/*border-bottom: 6px #696969 solid;*/
+	border-top-right-radius: 40px;
+	border-top-left-radius: 4px;
+	display: inline-block;
+	margin: 0 5px;
+	/*padding: 15px 40px 9px 25px;*/
+	padding: 13px 40px 13px 25px;
+	transition: all 0.2s;
+}
+
+#user_description li button.active
+{
+	background-color: #34b1bc;
+}
+
+
+#user_description span
+{
+	margin-left: 700px;
+}
+
+
+#user_description li span
+{
+	text-align: center;
+	color: #ffffff;
+	background-color: #b1b1b1;
+	font-size: 1.2em;
+	text-decoration: none;
+	/*border-bottom: 6px #696969 solid;*/
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	display: inline-block;
+	margin: 0 5px;
+	/*padding: 15px 40px 9px 25px;*/
+	padding: 13px 40px 13px 25px;
+	transition: all 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add_mark
+{
+	display:inline-block;
+	width: 500px;
+
+}
+
+.add_mark form 
+{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.add_mark form input
+{
+	display:inline-block;
+	vertical-align:top;
+	width: 93px;
+	height: 40px;
+	background-color: #34b1bc;
+	text-align: center;
+	color: #ffffff;
+	transition: all 0.3s;
+	text-decoration: none;
+	padding: 4px 6px 4px 6px;
+	margin-left :10px;
+	margin-right :10px;
+	border:0px transparent solid;
+	border-radius:4px;
+}
+
+.add_mark form input:hover
+{
+	background-color: #52bec8;
+}
+
+.add_mark form input:active
+{
+	background-color: #279fa9;
+}
+
+.add_mark form select
+{
+	display:inline-block;
+	vertical-align:top;
+	width: 50px;
+	height: 40px;
+	border-radius:6px;
+	color: #34b1bc;
+	border:2px #dddddd solid;
+}
+
+.add_mark p
+{
+	margin-top:0px;
+	margin-right:10px;
+	display:inline-block;
+	vertical-align:top;
+	text-align:right;
+	color:#666666;
+	line-height: 1.5em;
+}
+.add_mark a
+{
+
+ color:#34b1bc;
+	
+}
+
+#input_comment
+{
+	display:none;
+}
+
+
+.add_comment
+{
+	display:inline-block;
+	float:right;
+	margin-bottom: 25px;
+	text-align: right;
+}
+
+.button_add
+{
+	width: 250px;
+	background-color: #34b1bc;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 26px;
+	background-image: url('../img/add_item.svg');
+	background-repeat: no-repeat;
+	background-position: 12px 12px;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+
+.button_add:hover
+{
+	background-color: #52bec8;
+}
+
+.button_add:active
+{
+	background-color: #279fa9;
+}
+
+.comment_in form
+{
+	width:630px;
+	display: table-cell;
+	min-height: 110px;
+	vertical-align:top;
+	padding:0px;
+	margin:0px;
+}
+
+.comment_in textarea
+{
+	min-width:500px;
+	max-width:500px;
+	height:98px;
+	height:98px;
+	margin:0px;
+	padding:5px;
+	display:inline-block;
+	vertical-align:middle;
+	line-height: 1.5em;
+	font-size: 1.1em;
+	overflow:hidden;
+	border:none;
+	resize: none;
+	color: #808080;
+}
+.comment_in input
+{
+	/*display:inline-block;
+	vertical-align:middle;
+	margin:0px;
+	padding:0px;*/
+	width: 93px;
+	height: 40px;
+	background-color: #34b1bc;
+	text-align: center;
+	color: #ffffff;
+	transition: all 0.3s;
+	text-decoration: none;
+	padding: 4px 6px 4px 6px;
+	margin-left :10px;
+	margin-right :10px;
+	border:0px transparent solid;
+	border-radius:4px;
+}
+
+.comment_in input:hover
+{
+	background-color: #52bec8;
+}
+
+.comment_in input:active
+{
+	background-color: #279fa9;
+}
+
+.submit_comment
+{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.1em;
+	width: 30px;
+	color: #34b1bc;
+	font-family: 'Biko Bold';
+	padding-top:5px;
+}
+#add_comment_zone
+{
+	/*display:none;*/
+}
+
+#alert_message
+{
+	display:none;
+	color: #e66d75;
+
+}
+
+#alert_message a
+{
+color:#e66d75;
+}
+
+
+
+
+
+
+
+
+
+#comment
+{
+	display:none;
+}
+
+
+.comment_in
+{
+	display: table;
+	height: 110px;
+	width: 884px;
+	background-color: white;
+	border-radius: 8px;
+	margin-bottom: 25px;
+	border: 3px #dddddd solid;
+	transition: all 0.3s;
+	
+}
+
+.comment_in input:hover
+{
+	background-color: #52bec8;
+}
+
+.comment_in input:active
+{
+	background-color: #279fa9;
+}
+
+.comment_in img
+{
+	display: table-cell;
+	height: 110px;
+	width: 110px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-right:10px;
+	border-right: 3px #dddddd solid;
+	transition: all 0.3s;
+	vertical-align: middle;
+}
+.autor_comment
+{
+	display: table-cell;
+	vertical-align: top;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.1em;
+	width: 100px;
+	color: #34b1bc;
+	padding: 0 15px;
+	font-family: 'Biko Bold';
+	padding-top:40px;
+}
+.autor_comment a
+{
+	color: #34b1bc;
+	text-decoration: none;
+}
+
+.autor_comment a:hover
+{
+	color: #34b1bc;
+	text-decoration: underline;
+}
+
+.text_comment a
+{
+	color: #808080;
+	text-decoration: none;
+}
+
+.text_comment a:hover
+{
+	
+}
+
+.text_comment
+{
+	max-width:500px;
+	min-width:500px;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1.5em;
+	/*text-align: center;*/
+	font-size: 1.1em;
+	color: #808080;
+	/*font-family: 'Biko Bold';*/
+	padding: 0 15px;
+	
+}
+
+.date_comment
+{
+	display: table-cell;
+	vertical-align: top;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.1em;
+	width: 110px;
+	color: #34b1bc;
+	font-family: 'Biko Bold';
+	padding-top:25px;
+}
+
+
+
+.my_item_empty
+{
+	color: #34b1bc;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Biko Bold';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#items
+{
+	display:none;
+}
+
+.item_in
+{
+	display: table;
+	height: 110px;
+	width: 884px;
+	background-color: white;
+	border-radius: 8px;
+	margin-bottom: 25px;
+	border: 3px #dddddd solid;
+	transition: all 0.3s;
+}
+
+.item_in:last-child
+{
+	margin-bottom: 0;
+}
+
+.item_in:hover
+{
+	border-color: #b1b1b1;
+}
+
+.item_in img
+{
+	display: table-cell;
+	height: 110px;
+	width: 110px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right: 3px #dddddd solid;
+	transition: all 0.3s;
+	vertical-align: middle;
+}
+
+.item_in:hover img
+{
+	border-color: #b1b1b1;
+}
+
+.where_item
+{
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.1em;
+	width: 160px;
+	color: #34b1bc;
+	padding: 0 15px;
+	font-family: 'Biko Bold';
+}
+
+.where_item a
+{
+	color: #34b1bc;
+	text-decoration: none;
+}
+
+.where_item a:hover
+{
+	color: #34b1bc;
+	text-decoration: underline;
+}
+
+.title_item
+{
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.1em;
+	color: #808080;
+	font-family: 'Biko Bold';
+	width: 710px;
+	padding: 0 15px;
+}
+
+.title_item a
+{
+	color: #808080;
+	text-decoration: none;
+}
+
+.title_item a:hover
+{
+	text-decoration: underline;
+}
+
+.date_item
+{
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.1em;
+	width: 110px;
+	color: #34b1bc;
+	font-family: 'Biko Bold';
+}
+
+.date_item a
+{
+	color: #34b1bc;
+	text-decoration: none;
+}
+
+.date_item a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
