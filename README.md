@@ -15,5 +15,6 @@ The Team
 - [@mattp94](https://github.com/mattp94)
 - [@jordansportes8355](https://github.com/jordansportes8355)
 - [@DivLoic](https://github.com/DivLoic)
+- [@marymima](https://github.com/marymima)
 
 See also, our engineering school : [isep.fr](http://www.isep.fr)
