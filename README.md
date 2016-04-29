@@ -16,5 +16,6 @@ The Team
 - [@jordansportes8355](https://github.com/jordansportes8355)
 - [@DivLoic](https://github.com/DivLoic)
 - [@marymima](https://github.com/marymima)
+- [@SaraBenazzouz](https://github.com/SaraBenazzouz)
 
 See also, our engineering school : [isep.fr](http://www.isep.fr)
